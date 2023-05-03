@@ -2,13 +2,57 @@
 
 This is simple ChatGPT client using Flutter, Firebase and the ChatGPT API.
 
+## Preview
+
+<img src="https://github.com/ahmedalmubarak/ChatGpt-client/blob/main/chatgpt_flutter/assets/screen1.jpg?raw=true"  width="" height="500">
+
 ## Getting Started
 
 This project contains 2 directories:
 
 1. `chatgpt_flutter` - The Flutter client
 
-2. `chatgpt_firebase` - The Firebase functions
+2. `chatgpt_firebase` - The Firebase functions implanting using [Node.js](https://nodejs.org/)
+
+### Folders structure
+
+    chatgpt_firebase
+     ┣ functions
+     ┃ ┣ src
+     ┃ ┃ ┗ index.ts
+     ┃ ┣ .env
+     ┃ ┣ .eslintrc.js
+     ┃ ┣ .gitignore
+     ┃ ┣ package-lock.json
+     ┃ ┣ package.json
+     ┃ ┣ tsconfig.dev.json
+     ┃ ┗ tsconfig.json
+     ┣ .firebaserc
+     ┣ .gitignore
+     ┣ firebase.json
+     ┣ firestore.indexes.json
+     ┗ firestore.rules
+
+
+    lib
+     ┣ data
+     ┃ ┣ chat_message.dart
+     ┃ ┣ chat_message.freezed.dart
+     ┃ ┣ chat_message.g.dart
+     ┃ ┗ role.dart
+     ┣ pages
+     ┃ ┗ chat_page.dart
+     ┣ providers
+     ┃ ┗ messages_provider.dart
+     ┣ services
+     ┃ ┗ database_service.dart
+     ┣ widgets
+     ┃ ┣ chat_empty.dart
+     ┃ ┣ chat_header.dart
+     ┃ ┣ chat_message_item.dart
+     ┃ ┗ chat_text_field.dart
+     ┣ app.dart
+     ┗ main.dart
 
 ### Pre-requisites
 

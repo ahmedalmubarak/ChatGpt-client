@@ -1,6 +1,6 @@
 # ChatGpt client
 
-This is a sample demonstrating how to build a to build simple ChatGPT client using Flutter, Firebase and the ChatGPT API.
+This is simple ChatGPT client using Flutter, Firebase and the ChatGPT API.
 
 ## Getting Started
 
@@ -20,6 +20,6 @@ This project contains 2 directories:
 
 4. You will need a Firebase project. If you don't have one, create one [here](https://console.firebase.google.com/).
 
-5. You will need a ChatGPT API key. If you don't have one, create one [here](https://chatgpt.com/).
+5. You will need a ChatGPT API key. If you don't have one, create one [here](http://chat.openai.com/auth/login).
 
 6. Put your ChatGPT API key & organization ID in [`functions/.env`](./chatgpt_firebase/functions/.env).

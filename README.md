@@ -12,7 +12,7 @@ This project contains 2 directories:
 
 1. `chatgpt_flutter` - The Flutter client
 
-2. `chatgpt_firebase` - The Firebase functions implanting using [Node.js](https://nodejs.org/)
+2. `chatgpt_firebase` - The Firebase functions implanting using [Node.js](https://nodejs.org/) with typeScript
 
 ### Folders structure
 
